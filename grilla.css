@@ -20,8 +20,9 @@ line-height:48px;
 }
 #header2{
 background-color: #17468e;
-height:3em;
-max-height:3em;
+height:4em;
+max-height:4em;
+vertical-align:middle;
 width:100%;
 }
 #escudo{
@@ -89,6 +90,14 @@ font-size:15px;
   #header1 h2 {
     text-align:center;
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #header2 {
+    height:3.5em;
+    max-height:3.5em;
+    vertical-align:middle;
+    width:100%;
   }
 }
 @media screen and (max-width: 640px) {
