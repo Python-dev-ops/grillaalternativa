@@ -1,0 +1,233 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height:100%;
+  margin:0;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  float: left;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 15px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  padding: 60px 10px;
+  height:100%;
+}
+
+#Lu{
+  background-color: red;
+
+}
+#Mar{
+  background-color: green;
+
+}
+#Mi {
+  background-color: blue;
+
+}
+#Jue{
+  background-color: orange;
+
+}
+#Vie{
+  background-color: purple;
+
+}
+
+.box1{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-row-gap: 0.3rem;
+  grid-auto-rows: minmax(35px,38px)
+}
+
+.gri-hor{
+  background-color:Beige;
+  border-radius: 0.5rem;
+}
+.gri-hor p{
+  line-height:8px;
+  text-align: center;
+  font-weight: bold;
+}
+.gri-asig{
+  background-color: lime;
+  border-radius: 0.5rem;
+}
+.gri-asig p{
+  line-height:8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#civ{
+  background-color:DarkSeaGreen;
+}
+#lyl{
+  background-color:#9E8464;
+}
+
+#com{
+  background-color: CornflowerBlue;
+}
+
+#bio{
+  background-color: GreenYellow;
+}
+
+#his{
+  background-color: #ff3333;
+}
+
+#mus{
+  background-color: #ffad33;
+}
+
+#ing{
+  background-color: salmon;
+}
+
+#mat{
+  background-color:#ffff66;
+}
+
+#geo{
+  background-color: #00b33c;
+}
+
+#pla{
+  background-color: #cc66ff;
+}
+
+#fra{
+  background-color: #1affb2;
+}
+#ade{
+  background-color: #8972E8;
+}
+#con{
+  background-color: #C1FF6F;
+}
+#der{
+  background-color: #9DDEFF;
+}
+#tpo{
+  background-color: #E85706;
+}
+#fis{
+  background-color: #83B26B;
+}
+#fiq{
+  background-color: #83B26B;
+}
+#eyc{
+  background-color: #EEA5FF;
+}
+#mic{
+  background-color: #B2186B;
+}
+#eps{
+  background-color: #5FFF5B;
+}
+#fia{
+  background-color: #83B26B;
+}
+#fil{
+  background-color: #EBCEAB;
+}
+#psi{
+  background-color: #EBCEAB;
+}
+#qui{
+  background-color: #72909E;
+}
+#itc{
+  background-color:DarkSeaGreen;
+}
+#lpi{
+  background-color:#B1ADEB;
+}
+#aps{
+  background-color:#C5FFF3;
+}
+#tpp{
+  background-color: #FFB2EA;
+}
+#maf{
+  background-color:#ffff66;
+}
+#mac{
+  background-color: #A2A9EB;
+}
+
+@media only screen and (max-width: 480px) {
+.gri-hor{
+    border-radius: inherit;
+  }
+}
+@media only screen and (max-width: 480px) {
+.gri-hor p{
+    font-size: 1.1em;
+    line-height:20px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.gri-asig{
+    border-radius: inherit;
+  }
+}
+@media only screen and (max-width: 480px) {
+.gri-asig p{
+    font-size: 1.1em;
+    line-height:20px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.box1{
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 3rem;
+  grid-row-gap: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.tablink{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.tabcontent{
+    padding: 60px 0;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>4° 1°</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Tabs.css" type="text/css">
+    <script type="text/javascript"  src="./Tabs.js"></script>
+  </head>
+  <body>
+
+<button class="tablink" onclick="openPage('Lu', this, 'red')"id="defaultOpen">Lu</button>
+<button class="tablink" onclick="openPage('Mar', this, 'green')">Mar</button>
+<button class="tablink" onclick="openPage('Mi', this, 'blue')">Mi</button>
+<button class="tablink" onclick="openPage('Jue', this, 'orange')">Jue</button>
+<button class="tablink" onclick="openPage('Vie', this, 'purple')">Vie</button>
+
+<div id="Lu" class="tabcontent">
+  <div class="box1">
+      <div class="gri-hor"> <p>13:30 a 14:10</p> </div>
+      <div class="gri-asig" id="mat"> <p>Matemática</p> </div>
+
+      <div class="gri-hor"> <p>14:10 a 14:50</p> </div>
+      <div class="gri-asig" id="lyl"> <p>Lengua y Literatura</p> </div>
+
+      <div class="gri-hor"> <p>14:55 a 15:35</p> </div>
+      <div class="gri-asig" id="ade"> <p>Admin. de Empresas</p> </div>
+
+      <div class="gri-hor"> <p>15:35 a 16:15</p> </div>
+      <div class="gri-asig" id="ade"> <p>Admin. de Empresas</p> </div>
+
+      <div class="gri-hor"> <p>16:25 a 17:05</p> </div>
+      <div class="gri-asig" id="geo"> <p>Geografía</p> </div>
+
+      <div class="gri-hor"> <p>17:05 a 17:45</p> </div>
+      <div class="gri-asig" id="geo"> <p>Geografía</p> </div>
+
+  </div>
+</div>
+
+<div id="Mar" class="tabcontent">
+  <div class="box1">
+    <div class="gri-hor"> <p>13:30 a 14:10</p> </div>
+    <div class="gri-asig" id="mic"> <p>Microeconomía</p> </div>
+
+    <div class="gri-hor"> <p>14:10 a 14:50</p> </div>
+    <div class="gri-asig" id="mic"> <p>Microeconomía</p> </div>
+
+    <div class="gri-hor"> <p>14:55 a 15:35</p> </div>
+    <div class="gri-asig" id="der"> <p>Derecho</p> </div>
+
+    <div class="gri-hor"> <p>15:35 a 16:15</p> </div>
+    <div class="gri-asig" id="der"> <p>Derecho</p> </div>
+
+    <div class="gri-hor"> <p>16:25 a 17:05</p> </div>
+    <div class="gri-asig" id="eps"> <p>Educación para la Salud</p> </div>
+
+    <div class="gri-hor"> <p>17:05 a 17:45</p> </div>
+    <div class="gri-asig" id="eps"> <p>Educación para la Salud</p> </div>
+
+    <div class="gri-hor"> <p>17:45 a 18:25</p> </div>
+    <div class="gri-asig" id="ing"> <p>Inglés</p> </div>
+
+  </div>
+</div>
+
+<div id="Mi" class="tabcontent">
+  <div class="box1">
+    <div class="gri-hor"> <p>13:30 a 14:10</p> </div>
+    <div class="gri-asig" id="ade"> <p>Admin. de Empresas</p> </div>
+
+    <div class="gri-hor"> <p>14:10 a 14:50</p> </div>
+    <div class="gri-asig" id="ade"> <p>Admin. de Empresas</p> </div>
+
+    <div class="gri-hor"> <p>14:55 a 15:35</p> </div>
+    <div class="gri-asig" id="lyl"> <p>Lengua y Literatura</p> </div>
+
+    <div class="gri-hor"> <p>15:35 a 16:15</p> </div>
+    <div class="gri-asig" id="lyl"> <p>Lengua y Literatura</p> </div>
+
+    <div class="gri-hor"> <p>16:25 a 17:05</p> </div>
+    <div class="gri-asig" id="con"> <p>Contabilidad</p> </div>
+
+    <div class="gri-hor"> <p>17:05 a 17:45</p> </div>
+    <div class="gri-asig" id="con"> <p>Contabilidad</p> </div>
+
+  </div>
+</div>
+
+<div id="Jue" class="tabcontent">
+  <div class="box1">
+    <div class="gri-hor"> <p>13:30 a 14:10</p> </div>
+    <div class="gri-asig" id="mat"> <p>Matemática</p> </div>
+
+    <div class="gri-hor"> <p>14:10 a 14:50</p> </div>
+    <div class="gri-asig" id="mat"> <p>Matemática</p> </div>
+
+    <div class="gri-hor"> <p>14:55 a 15:35</p> </div>
+    <div class="gri-asig" id="con"> <p>Contabilidad</p> </div>
+
+    <div class="gri-hor"> <p>15:35 a 16:15</p> </div>
+    <div class="gri-asig" id="con"> <p>Contabilidad</p> </div>
+
+    <div class="gri-hor"> <p>16:25 a 17:05</p> </div>
+    <div class="gri-asig" id="der"> <p>Derecho</p> </div>
+
+    <div class="gri-hor"> <p>17:05 a 17:45</p> </div>
+    <div class="gri-asig" id="der"> <p>Derecho</p> </div>
+
+    <div class="gri-hor"> <p>17:45 a 18:25</p> </div>
+    <div class="gri-asig" id="tpo"> <p>Taller Práct. de Oficina</p> </div>
+
+    <div class="gri-hor"> <p>18:25 a 19:05</p> </div>
+    <div class="gri-asig" id="tpo"> <p>Taller Práct. de Oficina</p> </div>
+
+  </div>
+</div>
+
+<div id="Vie" class="tabcontent">
+  <div class="box1">
+    <div class="gri-hor"> <p>13:30 a 14:10</p> </div>
+    <div class="gri-asig" id="ing"> <p>Inglés</p> </div>
+
+    <div class="gri-hor"> <p>14:10 a 14:50</p> </div>
+    <div class="gri-asig" id="ing"> <p>Inglés</p> </div>
+
+    <div class="gri-hor"> <p>14:55 a 15:35</p> </div>
+    <div class="gri-asig" id="con"> <p>Contabilidad</p> </div>
+
+    <div class="gri-hor"> <p>15:35 a 16:15</p> </div>
+    <div class="gri-asig" id="con"> <p>Contabilidad</p> </div>
+
+    <div class="gri-hor"> <p>16:25 a 17:05</p> </div>
+    <div class="gri-asig" id="fis"> <p>Física</p> </div>
+
+    <div class="gri-hor"> <p>17:05 a 17:45</p> </div>
+    <div class="gri-asig" id="fis"> <p>Física</p> </div>
+
+    <div class="gri-hor"> <p>17:45 a 18:25</p> </div>
+    <div class="gri-asig" id="tpo"> <p>Taller Práct. de Oficina</p> </div>
+
+    <div class="gri-hor"> <p>18:25 a 19:05</p> </div>
+    <div class="gri-asig" id="tpo"> <p>Taller Práct. de Oficina</p> </div>
+
+  </div>
+</div>
+  </body>
+</html>
