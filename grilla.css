@@ -25,11 +25,12 @@ max-height:3em;
 width:100%;
 }
 #escudo{
-width: 100%;
-max-width: 200px;
-padding-left:7%;
-height:3em;
-}
+  width: 100%;
+  max-width: 30%;
+  padding-left:5%;
+  height:3.5em;
+  vertical-align:middle;
+  }
 #img-edu{
 margin:0px;
 }
