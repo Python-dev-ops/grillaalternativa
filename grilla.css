@@ -95,8 +95,8 @@ font-size:15px;
 }
 @media screen and (max-width: 600px) {
   #header2 {
-    height:3.5em;
-    max-height:3.5em;
+    /*height:3.5em;
+    max-height:3.5em;*/
     vertical-align:middle;
     width:100%;
   }
