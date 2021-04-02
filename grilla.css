@@ -1,10 +1,10 @@
 html, body{
 font-family: 'Cinzel', serif, 'Tangerine', cursive;
 background-color:#ffffff;
-margin:0px;
-padding:0px;
-height:100%;
-max-width:100%;
+margin:0;
+padding:0;
+/*height:100%;
+max-width:100%;*/
 }
 #header1{
 background-color: #333;
@@ -80,7 +80,9 @@ padding-top: 2%;
 padding-bottom:2%;  
 font-size:15px;
 }
+.nqn {
 
+  }
 
 @media screen and (max-width: 600px) {
   #header1 {
