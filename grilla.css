@@ -1,3 +1,7 @@
+*{
+  margin:0px auto;
+  padding:0px auto;
+}
 html, body{
 font-family: 'Cinzel', serif, 'Tangerine', cursive;
 background-color:#ffffff;
