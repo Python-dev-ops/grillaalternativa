@@ -88,7 +88,7 @@ font-size:15px;
     margin: 0px;
     padding: 0px;
   }
-/*
+
 @media screen and (max-width: 750px) {
   #header1 {
     line-height:48px; 
@@ -104,7 +104,7 @@ font-size:15px;
   #header2 {
     /*height:3.5em;
     max-height:3.5em;*/
-/*    vertical-align:middle;
+    vertical-align:middle;
     width:100%;
   }
 }
@@ -126,10 +126,9 @@ font-size:15px;
    max-width:90%;
   /* display:block;
    padding-top: 2px;*/
-/*  }
+  }
 }
-*/
-/*
+
 @media screen and (max-width: 750px) {
     .column{ 
      font-size: 11px;
@@ -142,13 +141,12 @@ font-size:15px;
 }
 
 @media screen and (max-width: 750px) {
-    #foot{
-    
+    #foot{   
     margin: 0px;
     }
 }
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .btn.active{
      width:100%;
     }
@@ -165,7 +163,7 @@ font-size:15px;
     .container{
      width:100%;
     }
-}*/
+}
 
 #foot {
   height: 60px;
@@ -222,9 +220,9 @@ font-size:15px;
   background-color: #a5a1a0;
 }
 
-/* Add a dark background to the active button 
+/* Add a dark background to the active button */
 .btn.active {
   background-color:#07CFA6;
   color: rgb(0, 0, 0);
 }
-*/
+
