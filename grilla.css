@@ -1,8 +1,4 @@
 html, body{
-  display: grid;
-  height: 100vh;
-  grid-template-rows: auto 1fr auto;
-
 font-family: 'Cinzel', serif, 'Tangerine', cursive;
 background-color:#ffffff;
 margin:0;
