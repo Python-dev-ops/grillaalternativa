@@ -1,4 +1,8 @@
 html, body{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+
 font-family: 'Cinzel', serif, 'Tangerine', cursive;
 background-color:#ffffff;
 margin:0;
@@ -81,9 +85,10 @@ padding-bottom:2%;
 font-size:15px;
 }
 .nqn {
-
+    margin: 0px;
+    padding: 0px;
   }
-
+/*
 @media screen and (max-width: 750px) {
   #header1 {
     line-height:48px; 
@@ -99,7 +104,7 @@ font-size:15px;
   #header2 {
     /*height:3.5em;
     max-height:3.5em;*/
-    vertical-align:middle;
+/*    vertical-align:middle;
     width:100%;
   }
 }
@@ -117,13 +122,14 @@ font-size:15px;
 }
 @media screen and (max-width: 750px) {
   #icon {
-   margin:0 auto;
+   margin:0px;
    max-width:90%;
-   display:block;
-   /*padding-top: 2px;*/
-  }
+  /* display:block;
+   padding-top: 2px;*/
+/*  }
 }
-
+*/
+/*
 @media screen and (max-width: 750px) {
     .column{ 
      font-size: 11px;
@@ -148,7 +154,7 @@ font-size:15px;
     }
 }
 
-*/
+
 @media screen and (max-width: 750px) {
     .btn{
      width:49.5%;
@@ -159,7 +165,7 @@ font-size:15px;
     .container{
      width:100%;
     }
-}
+}*/
 
 #foot {
   height: 60px;
